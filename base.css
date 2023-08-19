@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    color: #02413d;
+    font-size: medium;
+    width: 15%;
+    background-color: rgba(180, 237, 245, 0.842);
+    padding: 100px 0px 0px;
+}
+.header {
+    text-align: center;
+    background-color: rgb(236, 243, 237);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.content form {
+    margin: 0px;
+    border-radius: 10px;
+    border: #424242;
+}
+.content form label {
+    display: block;
+    margin-bottom: 5px;
+    padding: 15px 15px 0px 0px;
+}
+.content form textarea {
+    margin: 5px;
+    width: 100%;
+    height: 150px;
+}
+.content table {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.content table tr:hover {
+    background-color: rgb(121, 131, 127);
+}
+.content table th {
+    background-color: rgb(121, 131, 127);
+}
+.footer {
+    background-color: rgba(221, 253, 240, 0.801);
+    min-height: 150px;
+    padding: 50;
+    text-align: center;
+}
+.footer a {
+    display: inline-block;
+    margin: 0 30px;
+}
